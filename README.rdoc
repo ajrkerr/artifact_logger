@@ -4,5 +4,15 @@ This is an engine which is designed to be a drop-in logging agent for use in a R
 
 Usage:
 
-    # model/artifact.rb
-    has_many 'Log::Messages', :as => :artifacts
+    # app/models/artifact.rb
+    
+    class Artifact < ActiveRecord::Base
+      has_many 'Log::Messages', :as => :artifacts
+
+    end
+
+    art = Artifact.new
+
+    art.log("Error", "This is an error message")
+
+    art.logs
