@@ -1,0 +1,138 @@
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (42.0ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 14:58:24 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 14:58:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 14:58:24 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 14:58:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.5ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:00:13 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:00:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 15:00:13 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:00:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.1ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:00:41 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:00:41 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 15:00:41 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:00:41 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.3ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:01:52 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:01:52 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 15:01:52 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:01:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.9ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:09:18 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:09:18 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.1ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:11:36 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:11:36 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.2ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:46:07 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:46:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:48:59 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:48:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.3ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 15:53:57 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 15:53:57 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.1ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 16:09:04 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 16:09:04 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.2ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 16:09:14 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 16:09:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.5ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 16:23:58 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 16:23:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.2ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:18:40 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:18:40 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (11.2ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:20:50 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:20:50 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.3ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:21:20 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:21:20 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.5ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:23:27 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:23:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.3ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:24:13 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:24:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:25:19 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:25:19 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:25:33 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:25:33 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.7ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:26:55 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:26:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.1ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:27:06 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:27:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+Migrating to CreateArtifactLogger (20110706154303)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "log_messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "level" varchar(255) NOT NULL, "type" varchar(255), "text" text NOT NULL, "artifact_type" varchar(255), "artifact_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_log_messages_on_artifact_type" ON "log_messages" ("artifact_type")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_log_messages_on_artifact_id" ON "log_messages" ("artifact_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_log_messages_on_level" ON "log_messages" ("level")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_level')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_log_messages_on_type" ON "log_messages" ("type")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110706154303')
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("artifacts")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_log_messages_on_type')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_log_messages_on_level')
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_id')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:27:54 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:27:54 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:29:21 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:29:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Jul 2011 17:30:57 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:30:57 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.6ms)[0m  INSERT INTO "log_messages" ("artifact_id", "artifact_type", "created_at", "level", "text", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["artifact_id", nil], ["artifact_type", nil], ["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["level", "Info"], ["text", "Aut qui voluptates pariatur velit quia ut consequatur eos. Voluptates omnis quidem aperiam laborum animi. Debitis iure sit quis nemo. Magnam quod totam voluptatem nisi ut expedita itaque et. Aut eum et nihil temporibus ratione."], ["type", "A type"], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "log_messages" ("artifact_id", "artifact_type", "created_at", "level", "text", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["artifact_id", 1], ["artifact_type", "Artifact"], ["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["level", "Info"], ["text", "Qui accusantium quasi ut commodi. Odio autem molestiae laborum soluta est deleniti et. Earum reiciendis exercitationem fugit. Sint et quod sunt aspernatur. Aut id consequuntur soluta velit odit laborum molestias sunt."], ["type", "A type"], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "log_messages" ("artifact_id", "artifact_type", "created_at", "level", "text", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["artifact_id", 1], ["artifact_type", "Artifact"], ["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["level", "Info"], ["text", "Dolor provident alias odit. Facilis eum et autem labore necessitatibus quia. Dolores impedit ab qui. Aperiam dolores quisquam ex iure praesentium autem. Officia doloremque deleniti necessitatibus facere velit eos minima."], ["type", "A type"], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "log_messages" ("artifact_id", "artifact_type", "created_at", "level", "text", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["artifact_id", 1], ["artifact_type", "Artifact"], ["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["level", "Info"], ["text", "Et enim autem consequatur quasi iure quas aperiam eos. Odio autem dolorem minima harum explicabo. Expedita perferendis voluptatum nesciunt est accusamus. Dignissimos fugiat ut quia rerum sunt quo optio aut. Odit aspernatur est numquam quae."], ["type", "A type"], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "artifacts" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00], ["name", nil], ["updated_at", Wed, 06 Jul 2011 17:31:07 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1

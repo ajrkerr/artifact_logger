@@ -1,0 +1,137 @@
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (112.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (72.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (115.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (78.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (82.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (132.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (92.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (90.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "artifacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110706145534')
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("artifacts")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (159.8ms)[0m  [1mCREATE TABLE "artifacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (79.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (104.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (94.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110706145534')
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("artifacts")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (127.6ms)[0m  [1mCREATE TABLE "artifacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (83.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (116.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (73.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110706145534')
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (140.2ms)[0m  [1mCREATE TABLE "artifacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (94.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (105.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (93.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110706145534')
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+Migrating to CreateArtifactLogger (20110706154444)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "log_messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "level" varchar(255) NOT NULL, "type" varchar(255), "text" text NOT NULL, "artifact_type" varchar(255), "artifact_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_log_messages_on_artifact_type" ON "log_messages" ("artifact_type")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_log_messages_on_artifact_id" ON "log_messages" ("artifact_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_log_messages_on_level" ON "log_messages" ("level")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_level')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_log_messages_on_type" ON "log_messages" ("type")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110706154444')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("artifacts")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_type')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_level')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+Migrating to CreateArtifactLogger (20110706154303)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "log_messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "level" varchar(255) NOT NULL, "type" varchar(255), "text" text NOT NULL, "artifact_type" varchar(255), "artifact_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "log_messages" already exists: CREATE TABLE "log_messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "level" varchar(255) NOT NULL, "type" varchar(255), "text" text NOT NULL, "artifact_type" varchar(255), "artifact_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (141.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (139.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "artifacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110706145534')[0m
+Migrating to CreateArtifactLogger (20110706154303)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "log_messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "level" varchar(255) NOT NULL, "type" varchar(255), "text" text NOT NULL, "artifact_type" varchar(255), "artifact_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_log_messages_on_artifact_type" ON "log_messages" ("artifact_type")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_log_messages_on_artifact_id" ON "log_messages" ("artifact_id")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_id')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_type')
+  [1m[36m (0.3ms)[0m  [1mCREATE INDEX "index_log_messages_on_level" ON "log_messages" ("level")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("log_messages")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_log_messages_on_level')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_id')
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_log_messages_on_type" ON "log_messages" ("type")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110706154303')[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("artifacts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_type')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_level')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArtifacts (20110706145534)
+Migrating to CreateArtifactLogger (20110706154303)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("artifacts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("log_messages")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_type')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_level')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_log_messages_on_artifact_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_log_messages_on_artifact_type')[0m
