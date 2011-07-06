@@ -1,3 +1,8 @@
 = ArtifactLogger
 
-This project rocks and uses MIT-LICENSE.
+This is an engine which is designed to be a drop-in logging agent for use in a Rails application.
+
+Usage:
+
+    # model/artifact.rb
+    has_many 'Log::Messages', :as => :artifacts
