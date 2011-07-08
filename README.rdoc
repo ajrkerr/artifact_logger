@@ -4,6 +4,13 @@ This is an engine which is designed to be a drop-in logging agent for use in a R
 
 It's designed to be pretty simple and easy to use.
 
+Installation:
+  # Gemfile
+    gem "artifact_logger"
+
+  # Run this
+    rake artifact_logger_engine:install:migrations
+
 Usage:
 
     # app/models/artifact.rb
