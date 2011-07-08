@@ -2,17 +2,49 @@
 
 This is an engine which is designed to be a drop-in logging agent for use in a Rails application.
 
+It's designed to be pretty simple and easy to use.
+
 Usage:
 
     # app/models/artifact.rb
     
     class Artifact < ActiveRecord::Base
-      has_many 'Log::Messages', :as => :artifacts
-
+      #levels are optional
+      enable_artifact_logger :levels => [:info, :warning, :error, :custom]
     end
 
-    art = Artifact.new
+    Log::Message { 
+      :level => :info, # Defaults to :info, :warning, or :error
+      :text => "your message here",
+      :artifact => Artifact # Either the artifact it's attached to
+    }
 
-    art.log("Error", "This is an error message")
+    a = Artifact.new
 
-    art.logs
+    # To create an error or info message in the log
+    m = a.log "error", "This is an error message!"
+    n = a.log.info "This is an error message!"
+
+    #Both of these will display the same information
+    a.log           #> [m, n]
+    a.log.error     #> [m, n]
+
+    m.artifact      #> a
+    m.artifact_type #> Artifact
+
+
+    #This is also usable on the model itself
+    info = Article.log "info", "Article did something"
+    warn = Article.log.warning "Article did something else"
+
+    Article.log         #> [warn, info]
+    Article.log.warning #> [warn]
+
+    info.artifact       #> Artifact
+    info.artifact_type  #> Artifact
+
+
+Future Plans:
+- Add some arbitrary linking (ie. allowing a user to be associated with a log message)
+- Add support for message types (ie. a second dimension of arbitrary scoping)
+- Explore the possiblity of tagging instead of levels and types
