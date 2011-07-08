@@ -1,13 +1,13 @@
-Factory.define :message, :class => Log::Message do |m|
-  m.level "Info"
-  m.type  "A type"
+Factory.define :log_message, :class => Log::Message do |m|
+  m.level :info
+  # m.type  "A type"
   m.text { Faker::Lorem.paragraph }
 end
 
-Factory.define :error_message, :parent => :message do |m|
-  m.level "Error"
+Factory.define :error_message, :parent => :log_message do |m|
+  m.level :error
 end
 
-Factory.define :warning_message, :parent => :message do |m|
-  m.level "Warning"
+Factory.define :warning_message, :parent => :log_message do |m|
+  m.level :warning
 end

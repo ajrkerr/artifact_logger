@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(:version => 20110706154303) do
 
   create_table "log_messages", :force => true do |t|
     t.string   "level",         :null => false
-    t.string   "type"
     t.text     "text",          :null => false
     t.string   "artifact_type"
     t.integer  "artifact_id"
@@ -31,6 +30,5 @@ ActiveRecord::Schema.define(:version => 20110706154303) do
   add_index "log_messages", ["artifact_id"], :name => "index_log_messages_on_artifact_id"
   add_index "log_messages", ["artifact_type"], :name => "index_log_messages_on_artifact_type"
   add_index "log_messages", ["level"], :name => "index_log_messages_on_level"
-  add_index "log_messages", ["type"], :name => "index_log_messages_on_type"
 
 end

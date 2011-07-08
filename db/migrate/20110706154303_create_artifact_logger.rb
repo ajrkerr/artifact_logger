@@ -2,7 +2,7 @@ class CreateArtifactLogger < ActiveRecord::Migration
   def self.up
     create_table :log_messages do |t|
       t.string  :level, :null => false
-      t.string  :type
+      # t.string  :type
       t.text    :text, :null => false
       t.string  :artifact_type
       t.integer :artifact_id
@@ -13,7 +13,6 @@ class CreateArtifactLogger < ActiveRecord::Migration
     add_index :log_messages, :artifact_type
     add_index :log_messages, :artifact_id
     add_index :log_messages, :level
-    add_index :log_messages, :type
   end
 
   def self.down
