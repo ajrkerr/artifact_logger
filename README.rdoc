@@ -13,8 +13,7 @@ Installation:
 
 Usage:
 
-    # app/models/artifact.rb
-    
+  # app/models/artifact.rb
     class Artifact < ActiveRecord::Base
       #levels are optional
       enable_artifact_logger :levels => [:info, :warning, :error, :custom]
@@ -28,11 +27,11 @@ Usage:
 
     a = Artifact.new
 
-    # To create an error or info message in the log
+  # To create an error or info message in the log
     m = a.log "error", "This is an error message!"
     n = a.log.info "This is an error message!"
 
-    #Both of these will display the same information
+  # Both of these will display the same information
     a.log           #> [m, n]
     a.log.error     #> [m, n]
 
@@ -40,7 +39,7 @@ Usage:
     m.artifact_type #> Artifact
 
 
-    #This is also usable on the model itself
+  # This is also usable on the model itself
     info = Article.log "info", "Article did something"
     warn = Article.log.warning "Article did something else"
 
