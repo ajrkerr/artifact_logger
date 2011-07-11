@@ -3,7 +3,7 @@ module ArtifactLogger::ActiveRecord
   extend ActiveSupport::Concern
 
   module ClassMethods
-    def enable_artifact_logger options
+    def enable_artifact_logger options={}
       #Configure the has_many
       has_many :log, :as => :artifact, :class_name => '::Log::Message'
       #Store the old logging method
