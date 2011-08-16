@@ -4,7 +4,7 @@ class Log::Message < ActiveRecord::Base
   validates :text, :presence => true
   validates :level, :presence => true, :inclusion => { :in => lambda { |record| record.valid_levels } }
 
-  scope :log_level, lambda { |level| where(:level => level)}
+  scope :log_level, lambda { |level| where(:level => level.to_s)}
 
   def self.valid_levels
     [:info, :warning, :error]

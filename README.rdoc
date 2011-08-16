@@ -22,7 +22,7 @@ Usage:
     Log::Message { 
       :level => :info, # Defaults to :info, :warning, or :error
       :text => "your message here",
-      :artifact => Artifact # Either the artifact it's attached to
+      :artifact => Artifact # Either the artifact it's attached to or the artifact's class
     }
 
     a = Artifact.new
@@ -54,3 +54,4 @@ Future Plans:
 - Add some arbitrary linking (ie. allowing a user to be associated with a log message)
 - Add support for message types (ie. a second dimension of arbitrary scoping)
 - Explore the possiblity of tagging instead of levels and types
+- Allow for aggregate logs (ie. a parent object has access to all of it's children's log entries)
