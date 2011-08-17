@@ -16,6 +16,12 @@ shared_examples "an artifact" do |artifact|
     n.artifact.should == artifact
   end
 
+  it "should allow for query functions" do
+    artifact.log.info?.should be_true
+    artifact.log.warning?.should be_false
+    artifact.log.error?.should be_false
+  end
+
   it "should add a message" do
     m = artifact.log.info "This is a log message"
     n = artifact.log.warning "This is also a message"

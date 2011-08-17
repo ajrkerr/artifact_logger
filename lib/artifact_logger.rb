@@ -5,7 +5,8 @@ require 'artifact_logger/active_record'
 
 module ArtifactLogger
 
-  def self.extend_object obj, artifact
+  #Extends a log object to add additional functionality
+  def self.extend_log_object obj, artifact
     artifact.valid_log_levels.each do |level|
       obj.define_singleton_method level do |message=nil|
         if message.nil?
@@ -13,6 +14,12 @@ module ArtifactLogger
         else
           artifact.log.create(:text => message, :level => level)
         end
+      end
+
+      # Adds a method such as:
+      # artifact.log.error? which returns true if there 
+      obj.define_singleton_method "#{level}?" do
+        !artifact.log.log_level(level).empty?
       end
     end
     return obj

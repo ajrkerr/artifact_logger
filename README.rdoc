@@ -34,6 +34,8 @@ Usage:
   # Both of these will display the same information
     a.log           #> [m, n]
     a.log.error     #> [m, n]
+    a.log.error?    #> true
+    a.log.info?     #> false
 
     m.artifact      #> a
     m.artifact_type #> Artifact
